@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "4.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/chromoMap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/chromoMap/chromoMap_{{ version }}.tar.gz
-  sha256: 43c002741fcefdefa40ce389bb572973fec03354813f197fdea309bc7ee73146
+  sha256: 83d0641f3e962e1ddc2ee03e59feea15b3e5309cd1ab6343407535695a81c780
 
 build:
   merge_build_host: true  # [win]
